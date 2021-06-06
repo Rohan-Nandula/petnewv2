@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, Response
 from flask_mail import Mail, Message
 import requests
-import simplejson as json
-import jsonify
+import json
 import random
 import time
 from datetime import datetime
